@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kanban Pro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="title">KANBAN PRO</h1>
+
+    <div class="board">
+      <div class="column">
+        <div class="column-header">
+          <h2>Todo</h2>
+          <button onclick="addTaskToColumn('todo')">+</button>
+        </div>
+
+        <div class="task-list" id="todo"></div>
+      </div>
+
+      <div class="column">
+        <div class="column-header">
+          <h2>In Progress</h2>
+          <button onclick="addTaskToColumn('inprogress')">+</button>
+        </div>
+
+        <div class="task-list" id="inprogress"></div>
+      </div>
+
+      <div class="column">
+        <div class="column-header">
+          <h2>Done</h2>
+          <button onclick="addTaskToColumn('done')">+</button>
+        </div>
+
+        <div class="task-list" id="done"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
