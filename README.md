@@ -23,10 +23,10 @@ LocalStorage API – persistent data storage
 📂 Project Structure
 kanban-board-pro
 │
+├── README.md
 ├── index.html
 ├── script.js
-├── style.css
-└── README.md
+└── style.css
 
 🎮 How It Works
 Add a task inside any column.
